@@ -2,7 +2,7 @@ import { Component } from "@angular/core";
 
 @Component({
     selector: "app-promeiro-componente",
-    template: "<h2>Primeiro Componente</h2>",
-    styles: ["h2 {color: red;}"]
+    template: "<h1>Primeiro Componente</h1>",
+    styles: ["h1 {color: red;}"]
 })
 export class PrimeiroComponenteComponent{}

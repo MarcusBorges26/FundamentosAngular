@@ -1,1 +1,5 @@
-<p>Segundo componente</p>
+<h2>Aprofundando os conhecimentos em templates</h2>
+<img [src]="urlImagem" width="250px" height="250px">
+<p>Nome: {{nome | uppercase}}</p>
+<p>Data de nascimento: {{dataNascimento | date:"dd/MM/yyyy"}}</p>
+<button (click)="mostraData()" type="button">Mostrar data de nascimento</button>
